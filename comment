@@ -1,0 +1,2 @@
+$ python -m torch.distributed.launch --nproc_per_node 2 train.py --batch-size 64 --data fddfalldown6904.yaml --weights yolov5s.pt
+python train.py --weights ./runs/train/exp2/weights/best.pt --resume
